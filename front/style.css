@@ -1,0 +1,37 @@
+/* estilo para toda la Web */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/* estilo header */
+
+.header{
+    background: #79a1fa;
+    color: rgb(250, 250, 250);
+    padding: 16px 24px;
+    display: flex;/* logo y menu en fila */
+    justify-content:space-between;
+    align-items: center;/* elementos en fila */
+}
+/* estilo titulo web */
+
+.nombre{
+    font-size: 22px; /* tamaño de px */
+}
+
+/* enlaces de navegacion */
+.links{
+    color: white;
+    text-decoration: none;/* quita el subrayado */
+    margin-left: 12px;
+    opacity: 0.85;
+}
+
+.links:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
