@@ -1,14 +1,25 @@
-#librerias 
+# librerías
 import re
 """
-comillas para comentar en varias lineas 
+Espresiones regulares en Python
+Problemas Reales 
 """
-#codigo
-print("libreria cargada correctamente") # print funciona como el sout 
+#Codigo
+print("Librería cargada correctamente")
+# Ejemplo1
+texto="Mi Número es 12345"
+resultado=re.search(r"\d+",texto)
+print(f"{texto} Resultado {resultado.group()}")   
+texto="Mi Número es 12345-985"
+resultado=re.search(r"\d+",texto)
+print(f"{texto} Resultado {resultado.group()}") 
+resultado = re.findall(r"\d+",texto)
+print(f"{texto} resultado {resultado}")
 
-#ejemplo
-texto="mi Numero es 12345" #igual para variables "comillas para cadenas de texto o string"
-resultado=re.search(r"/d+",texto) #busca los numeros que se encuentren en la variable texto
-print(resultado.group()) #muestra el resultado de la busqueda 
+#funciones
+documento1 = "cc-75-055-60"
 
-# [] listas {} diccionario 
+
+def clean_id(documento): #def para declarar funcion 
+    return re.sub(r"\D","",documento)
+print(clean_id(documento1))

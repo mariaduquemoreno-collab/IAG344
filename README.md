@@ -24,3 +24,13 @@ git branch -M main
 git remote add origin https://github.com/mariaduquemoreno-collab/IAG344.git (para que el sepa que donde se van a guardar las cosas es el link dado.)
 git push -u origin master(primer push que se pone despues se pone el pus solo)
 ```
+
+# Desactivar entorno virtual 
+```
+desactive
+```
+# Comandos CDM
+|comando|Descripcion|
+|-|-|
+|`cd`|desplazarse en directorio|
+|`dir`|para saber en que entorno estamos|
