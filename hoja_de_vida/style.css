@@ -1,0 +1,22 @@
+*{
+    font-family: 'Montserrat','sans-serif';
+}
+
+
+/* color del fondo col izquierda */
+.bg-primary{
+    background-color: #4f2557c8 !important;
+}
+
+/* .imagen{
+    max-width: 70%;  de esta forma reduzco tamaño de la imagen
+} */
+/*opacidad barra progreso*/
+.progress{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+ }
+
+ /*cambio de color texto col dere*/
+ .text-primary{
+    color:#3498db !important;
+ }
