@@ -1,8 +1,12 @@
-# Entrenamiento  
-| patron | significado    |
-| ------ | -------------- |
-| `\d`   | digito         |
-| `\D`   | No digito      |
-| `\w`   | letra o numero |
-| `+`    | uno o mas      |
-| `*`    | cero o mas     |
+# 🏋️‍♂️ Entrenamiento
+
+| Patrón | significado    |
+|--------|----------------|
+| `\d`   | Digito         |
+| `\D`   | No Digito      |
+| `\w`   | Letra o numero |
+| `+`    | Uno o mas      |
+| `*`    | Cero o mas     |
+
+
+

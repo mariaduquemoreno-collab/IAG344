@@ -1,0 +1,37 @@
+*{
+    font-family: 'Montserrat' , 'sans-serif';
+}
+
+/* Color fondo columna izquierda */
+.bg-primary{
+    background-color: #2a4426 !important;
+}
+
+/* Tamaño foto de perfil */
+.imagen{
+    max-width: 80%;
+}
+
+/* Color barra de progreso */
+.progress-bar{
+    background-color: rgba(69, 134, 57, 0.89) !important;
+}
+
+/* Color texto columnas derecha */
+.text-primary{
+    color: rgb(50, 121, 42) !important;
+}
+
+/* Color boton */
+.btn-primary{
+    background-color:rgb(50, 121, 42) !important; 
+}
+
+/* Tarjetas */
+.card{
+    transition: transform 0.3s ease; box-shadow:  0.3 ease;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0.0.0.0, 0.1);
+}

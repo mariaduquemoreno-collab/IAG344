@@ -1,5 +1,8 @@
-crear un .exe
-1. instalar libererias 
+Crear un .exe
+
+1. Instalar librerias
    `pip install pyinstaller`
-2. crear el .exe
+2. Crear un .exe
    `pyinstaller --onefile --windowed app.py`
+
+

@@ -1,3 +1,6 @@
+# Ejecucion de la aplicacion
+
 from ui import iniciar_app
-if __name__ == "__main__":
+
+if __name__ == "__main__" :
     iniciar_app()

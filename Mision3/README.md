@@ -1,0 +1,2 @@
+C:\Users\Cristian\AppData\Local\Programs\Python\Python313\python.exe <!-- Ruta para crear entorno virtual -->
+C:\Users\Cristian\AppData\Local\Programs\Python\Python313\python.exe -m venv venv3.13.1 <!-- Comando para crear entorno virtual con una version de python diferente sin modificar ni alterar la version del path -->
